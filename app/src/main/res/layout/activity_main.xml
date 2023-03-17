@@ -46,7 +46,7 @@
         android:id="@+id/waterValue"
         android:layout_width="242dp"
         android:layout_height="42dp"
-        android:text="3000 ml"
+        android:text="3000"
         android:textAlignment="center"
         android:textColor="#0277BD"
         android:textSize="34sp"
@@ -62,7 +62,8 @@
         android:id="@+id/drunkValue"
         android:layout_width="189dp"
         android:layout_height="152dp"
-        android:text="You didn’t drink anything"
+        android:hint="you didn't drink anything"
+        android:text=""
         android:textAlignment="center"
         android:textColor="#0277BD"
         android:textSize="34sp"
@@ -72,6 +73,7 @@
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.603" />
+        app:layout_constraintVertical_bias="0.603"
+        tools:textColorHint="#0277BD" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
